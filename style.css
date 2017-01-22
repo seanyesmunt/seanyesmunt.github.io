@@ -1,21 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
   font-size: x-large;
-  background-color: #fcfcfc;
+  background-color: #403f3f;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
-  transition: all .3s ease;
-  color: #cf2a2a;
+  transition: all .4s ease;
+  color: #11A7A2;
 }
 
 a:hover {
   text-decoration: none;
+  color: #FFA45C;
 }
 
 .home {
@@ -28,6 +30,7 @@ a:hover {
   height: 100px;
   font-family: 'Oswald', sans-serif;
 }
+
 .header a {
   font-size: .8em;
   float: right;
@@ -47,6 +50,11 @@ a:hover {
   .main-view {
     margin-top: 15%;
   }
+}
+
+.main-view h1,
+.main-view h3 {
+  color: #f1f1f1
 }
 
 .main-view h1 {
@@ -72,7 +80,6 @@ a:hover {
   background-size: cover;
   background-position: center;
   margin: 0 auto;
-  box-shadow: 0 5px 3px #ccc;
   transition: all .5s ease;
 }
 
@@ -83,7 +90,6 @@ a:hover {
 .social {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  transition: color .3s ease;
   font-size: 1.3em;
 }
 
