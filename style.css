@@ -5,7 +5,7 @@
 
 body {
   font-size: x-large;
-  background-color: #403f3f;
+  background-color: #f6f6f6;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #FFA45C;
+  color: #ff615c;
 }
 
 .home {
@@ -43,7 +43,6 @@ a:hover {
   margin-top: 0;
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  color: #282828;
 }
 
 @media screen and (min-height: 800px) {
@@ -54,7 +53,7 @@ a:hover {
 
 .main-view h1,
 .main-view h3 {
-  color: #f1f1f1
+  color: #343434
 }
 
 .main-view h1 {
@@ -76,7 +75,7 @@ a:hover {
   height: 170px;
   width: 170px;
   border-radius: 50%;
-  background-image: url("/images/me.JPG");
+  background-image: url("images/me.JPG");
   background-size: cover;
   background-position: center;
   margin: 0 auto;
